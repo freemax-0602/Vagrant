@@ -71,7 +71,7 @@
             "scripts": 
             [
               "scripts/kernel-build.sh",
-              "scripts/setting-syn-proxy.sh",
+              "scripts/postinstall-setting.sh",
               "scripts/clean.sh"
             ]
           }

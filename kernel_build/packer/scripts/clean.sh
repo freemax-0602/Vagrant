@@ -4,7 +4,6 @@
 yum update -y
 yum clean all
 
-
 # Добавление ssh-ключа для пользователя vagrant
 mkdir -pm 700 /home/vagrant/.ssh
 curl -sL https://raw.githubusercontent.com/mitchellh/vagrant/master/keys/vagrant.pub -o /home/vagrant/.ssh/authorized_keys

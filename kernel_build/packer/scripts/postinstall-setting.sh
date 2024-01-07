@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# Устанавливаются необходимые компоненты
-sudo yum install -y kernel-devel kernel-headers dkms make bzip2 perl
-
 # Устанавливаем дополнения VBox
 sudo mount /dev/cdrom /mnt
 sudo /mnt/VBoxLinuxAdditions.run
