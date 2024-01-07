@@ -14,12 +14,12 @@
 **Дополнительное задания от преподователя**
 - собрать ядро с поддеркой SYN-Proxy
 ---
-**Результат выполнения задания***
-- создан файл 
-     packer/centos.jason
-     http/ks.cfg
-     scripts/clean.sh
-     scripts/kernel-update.sh
+**Результат выполнения задания**
+- создан файл
+     packer /centos.jason
+     http /ks.cfg
+     scripts /clean.sh
+     scripts /kernel-update.sh
 
 - отредактирован файл jason с учетом:
 * 
