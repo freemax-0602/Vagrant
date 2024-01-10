@@ -35,6 +35,29 @@
 packer build centos.json
 ```
 6. После выполнения данной команды собран образ ОС, в котором применены вышеописанные скрипты. Результатом сборки является файл `*.box`
-![screenshot of sample](~/Рабочий\ стол/packerBox.png)
+```
+.rw-rw-r-- 4,8G freemax freemax 10 янв 00:42 centos-8-kernel-6-x86_64-Minimal.box
+```
+7.  На основе образа создан VagrantFile и проверено обновления ядра
+```
+vagrant box add --name centos-kernel6/ centos-8-kernel-6-x86_64-Minimal.box
 
-7. 
+vagrant box list                                                     
+centos-kernel6 (virtualbox, 0)
+
+vagrant init centos-kernel6
+
+vagrant up
+
+vagrant ssh
+
+vagrant ssh
+Activate the web console with: systemctl enable --now cockpit.socket
+
+Last login: Tue Jan  9 16:37:53 2024 from 10.0.2.2
+[vagrant@otus-c8 ~]$ uname -r
+6.6.10-1.el8.elrepo.x86_64
+[vagrant@otus-c8 ~]$ exit
+выход
+
+```
