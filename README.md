@@ -35,6 +35,6 @@
 packer build centos.json
 ```
 6. После выполнения данной команды собран образ ОС, в котором применены вышеописанные скрипты. Результатом сборки является файл `*.box`
-![screenshot of sample] (~/Рабочий\ стол/packerBox.png)
+![screenshot of sample](~/Рабочий\ стол/packerBox.png)
 
 7. 
